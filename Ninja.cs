@@ -30,15 +30,15 @@ namespace HumanProject.Models
             }
 
             target.addDmg(dmg);
-            Console.WriteLine($"{Name} attacked {target.Name} for {dmg} damage!\n Current Target HP {target.health}, Current HP {Health}.");
+            Console.WriteLine($"{Name} is attacking {target.Name} adding {dmg} damage!\n Current Target HP {target.health}, Current HP {Health}.");
             return target.health;
         }
 
-        public int Takes(Human target)
+        public int Steal(Human target)
         {
             target.addDmg(5);
             Health += 5;
-            Console.WriteLine($"{Name} Stole 5 health from {target.Name}!");
+            Console.WriteLine($"{Name} Steals 5 health from {target.Name}!");
             return Health;
         }
     }

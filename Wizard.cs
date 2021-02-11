@@ -28,6 +28,7 @@ namespace HumanProject.Models
             return target.health;
         }
 
+        //FIRST AID = HEAL
         public int FirstAid(Human target)
         {
             int amount = Intelligence * 10;

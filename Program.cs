@@ -24,9 +24,10 @@ namespace HumanProject
             }
 
             Izac.FirstAid(Dave);
-            Collin.Takes(Bob);
+            Collin.Steal(Bob);
             Collin.Attack(Zach);
             Zach.Meditate();
+            
         }
 
     }

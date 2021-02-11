@@ -28,7 +28,7 @@ namespace HumanProject.Models
             if (hp < 50)
             {
                 target.addDmg(hp);
-                Console.WriteLine($"{target.Name}'s Health At Zero..\n Current Target HP {target.health}, Current HP {Health}.");
+                Console.WriteLine($"{target.Name}'s Health is At Zero..\n Current Target HP {target.health}, Current HP {Health}.");
             }
             return target.health;
         }
